@@ -4,16 +4,8 @@
   "version": "0.1",
   "content_scripts": [
     {
-      "matches": ["http://*.arstechnica.com/*", "https://*.arstechnica.com/*"],
-      "js": ["arstechnica_com.js"]
-    },
-    {
-      "matches": ["http://*.theguardian.com/*", "https://*.theguardian.com/*"],
-      "js": ["guardian_com.js"]
-    },
-    {
-      "matches": ["http://*.blogger.com/*", "https://*.blogger.com/*"],
-      "js": ["blogger_com.js"]
-    }  
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
   ]
 }

@@ -1,1 +1,0 @@
-alert(document.getElementsByClassName('byline')[0].childNodes[1].href);
